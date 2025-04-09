@@ -1,0 +1,27 @@
+{
+  "cafe-status": [
+    {
+      "id": "1",
+      "hasCoffe": true,
+      "lastPerson": "Abraao",
+      "lastUpdate": "2025-04-09T18:36:39.863Z"
+    }
+  ],
+  "historico-cafe": [
+    {
+      "id": "e235",
+      "pessoa": "Abraão",
+      "acao": "fez_cafe"
+    },
+    {
+      "id": "3172",
+      "person": "Abraao",
+      "action": "cabou_cafe"
+    },
+    {
+      "id": "6045",
+      "person": "Abraao",
+      "action": "fez_cafe"
+    }
+  ]
+}
