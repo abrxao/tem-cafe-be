@@ -4,7 +4,7 @@
       "id": "1",
       "hasCoffe": true,
       "lastPerson": "Abraao",
-      "lastUpdate": "2025-04-09T18:36:39.863Z"
+      "lastUpdate": "2025-04-11T18:39:13.439Z"
     }
   ],
   "historico-cafe": [
@@ -20,6 +20,16 @@
     },
     {
       "id": "6045",
+      "person": "Abraao",
+      "action": "fez_cafe"
+    },
+    {
+      "id": "a818",
+      "person": "Abraao",
+      "action": "cabou_cafe"
+    },
+    {
+      "id": "7a15",
       "person": "Abraao",
       "action": "fez_cafe"
     }

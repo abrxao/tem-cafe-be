@@ -1,18 +1,19 @@
 {
-  "name": "tem-cafe-be",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
+  "name": "cafe-status-api",
+  "version": "1.0.0",
+  "description": "API para status do café e histórico",
+  "main": "app.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 8000"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "init-db": "node db/init-db.js"
   },
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
